@@ -1,0 +1,65 @@
+# ==========================================
+# Compiled Java Class & Package files
+# ==========================================
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# ==========================================
+# IntelliJ IDEA specific files
+# ==========================================
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.idea_modules/
+
+# Keep these if you want to share project run configurations and code styles
+# (Uncomment the lines below if you prefer to completely block everything in .idea)
+# !.idea/runConfigurations/
+# !.idea/codeStyles/
+
+# ==========================================
+# Maven build directory
+# ==========================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ==========================================
+# Gradle build directory
+# ==========================================
+.gradle/
+build/
+.gradletasknamecache
+gradle-app.setting
+
+# Do NOT ignore the gradle wrapper jar if your project uses it
+!.gradle/wrapper/gradle-wrapper.jar
+
+# ==========================================
+# Operating System specific files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
