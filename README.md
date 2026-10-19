@@ -59,8 +59,11 @@ javac -d out @sources.txt
 
 ```bash
 for main in $(find out -name Main.class | sed 's|^out/||; s|\.class$||; s|/|.|g' | sort); do
-  echo "=================== $main"
+  echo "============================================"
+  echo "$main"
+  echo "============================================"
   java -cp out "$main"
+  echo -e "\n"
 done
 ```
 
