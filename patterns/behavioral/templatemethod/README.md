@@ -20,7 +20,7 @@ Generating a CSV report and an HTML report follows the same sequence (validate, 
 From the repository root (`java-design-patterns/`):
 
 ```bash
-javac -d out patterns/behavioral/template-method/*.java
+javac -d out patterns/behavioral/templatemethod/*.java
 java -cp out patterns.behavioral.templatemethod.Main
 ```
 

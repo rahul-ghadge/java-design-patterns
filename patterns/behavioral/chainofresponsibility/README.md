@@ -21,7 +21,7 @@ An expense request must be approved by someone with enough authority. Hard-codin
 From the repository root (`java-design-patterns/`):
 
 ```bash
-javac -d out patterns/behavioral/chain-of-responsibility/*.java
+javac -d out patterns/behavioral/chainofresponsibility/*.java
 java -cp out patterns.behavioral.chainofresponsibility.Main
 ```
 

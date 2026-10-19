@@ -20,7 +20,7 @@ A logistics application plans deliveries, but the kind of vehicle depends on the
 From the repository root (`java-design-patterns/`):
 
 ```bash
-javac -d out patterns/creational/factory-method/*.java
+javac -d out patterns/creational/factorymethod/*.java
 java -cp out patterns.creational.factorymethod.Main
 ```
 

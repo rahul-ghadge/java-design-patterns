@@ -22,7 +22,7 @@ A UI needs buttons and text fields that match the operating system's style. Crea
 From the repository root (`java-design-patterns/`):
 
 ```bash
-javac -d out patterns/creational/abstract-factory/*.java
+javac -d out patterns/creational/abstractfactory/*.java
 java -cp out patterns.creational.abstractfactory.Main
 ```
 
